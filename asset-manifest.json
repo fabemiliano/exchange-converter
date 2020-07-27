@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/exchange-converter/static/css/main.d44f39f1.chunk.css",
+    "main.js": "/exchange-converter/static/js/main.9df44248.chunk.js",
+    "main.js.map": "/exchange-converter/static/js/main.9df44248.chunk.js.map",
+    "runtime-main.js": "/exchange-converter/static/js/runtime-main.950cf470.js",
+    "runtime-main.js.map": "/exchange-converter/static/js/runtime-main.950cf470.js.map",
+    "static/js/2.1191c29a.chunk.js": "/exchange-converter/static/js/2.1191c29a.chunk.js",
+    "static/js/2.1191c29a.chunk.js.map": "/exchange-converter/static/js/2.1191c29a.chunk.js.map",
+    "index.html": "/exchange-converter/index.html",
+    "precache-manifest.092b4fc9291f4e9e8629ad5d922d2991.js": "/exchange-converter/precache-manifest.092b4fc9291f4e9e8629ad5d922d2991.js",
+    "service-worker.js": "/exchange-converter/service-worker.js",
+    "static/css/main.d44f39f1.chunk.css.map": "/exchange-converter/static/css/main.d44f39f1.chunk.css.map",
+    "static/js/2.1191c29a.chunk.js.LICENSE.txt": "/exchange-converter/static/js/2.1191c29a.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/exchange-converter/static/media/arrow.5df55aa2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.950cf470.js",
+    "static/js/2.1191c29a.chunk.js",
+    "static/css/main.d44f39f1.chunk.css",
+    "static/js/main.9df44248.chunk.js"
+  ]
+}
