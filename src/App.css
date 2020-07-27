@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Quicksand:wght@500&display=swap');
+
+.main {
+  margin: 0 auto 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 9px;
+}
+
+.main div {
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.graph {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.back-color {
+  background-color: #452B4E;
+  width: 100%;
+}
+
+.front-color {
+  background-color: #F7F7F9;
+  width: 90%;
+  margin-left: 10%;
+  border-radius: 30px 0 0 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.front-color p:first-child {
+  color: #452B4E;
+  font-weight: 800;
+  padding: 10px 100px;
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.currency-left {
+  background-color: #ead7f5;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-right: 25px;
+}
+
+.currency-left input {
+  width: 100%;
+  height: 60px;
+  border: transparent;
+  text-align: right;
+  background-color: transparent;
+  padding-right: 25px;
+  font-family: 'DM Mono', monospace;
+}
+
+.currency-left select {
+  background-color: #C4B4CA;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.currency-left p {
+  font-size: 2rem;
+  padding: 0;
+  margin: 20px 0 0 20px;
+  opacity: 0.5;
+}
+
+.currency-left div {
+  text-align: right;
+  padding-bottom: 5px;
+  font-family: 'Nanum Pen Script', cursive;
+  /* background-color: '#EAD7F5'; */
+}
+
+.currency-right {
+  background-color: #c4b4ca;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-right: 25px;
+}
+
+.currency-right input {
+  width: 100%;
+  height: 60px;
+  border: transparent;
+  text-align: right;
+  background-color: transparent;
+  padding-right: 25px;
+  font-family: 'DM Mono', monospace;
+}
+
+.currency-right select {
+  background-color: #EAD7F5;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.currency-right p {
+  font-size: 2rem;
+  padding: 0;
+  margin: 20px 0 0 20px;
+  opacity: 0.5;
+}
+
+.currency-right div {
+  text-align: right;
+  padding-bottom: 5px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+select {
+  width: 60PX;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main img {
+  position: absolute;
+  border-radius: 50%;
+  border: white 8px solid;
+}
+
+
+input {
+  width: 40%;
+  overflow-x: scroll;
+}
+
+.date-picker {
+  border: transparent;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  background-color: #E9EDFD;
+  border-radius: 10px;
+}
+
+.small-input {
+  font-size: 2rem;
+}
+
+.smaller-input {
+  font-size: 1rem;
+}
+
+.normal-input {
+  font-size: 3rem;
+}
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.chart div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 750px) {
+  .main {
+    flex-direction: column;
+  }
+  .main div {
+    margin-top: 10px;
+  }
+
+  .currency-left, .currency-right {
+    width: 250px;
+  }
+}
