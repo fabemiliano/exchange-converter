@@ -4,9 +4,9 @@
 
 I have built this exchange converter so I could practice my React skills.
 
-To do so I used the [Exchange Rates API](https://exchangeratesapi.io/) as the source of data fot the application.
+To do so I used the [Exchange Rates API](https://exchangeratesapi.io/) as the source of data for the application.
 
-The grapsh were built with a hand of [Google Charts for React](https://react-google-charts.com/)
+The chart was built with a hand of [Google Charts for React](https://react-google-charts.com/)
 
 With this application one can convert more than 30 different currencies. 
 
